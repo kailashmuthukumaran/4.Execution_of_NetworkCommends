@@ -55,21 +55,15 @@ while True:
     print(s.recv(1024).decode())
 ```
 
-### TRACEROUTE COMMAND :
 
-```
-from scapy.all import*
-target = ["www.google.com"]
-result, unans = traceroute(target,maxttl=32)
-print(result,unans)
-```
+
 
 ## Output
 
 ![image](https://github.com/user-attachments/assets/83964943-33a4-4415-8066-d6b58fb8a21d)
 
 
-![image](https://github.com/user-attachments/assets/e1ce6205-687d-4157-8599-1186dfdbf046)
+
 
 
 ## Result
